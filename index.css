@@ -462,6 +462,12 @@ body:not(.user-is-tabbing) a:focus {
   flex-flow: row;
   align-items: center;
 }
+
+#work__image2 {
+  max-width: 200%;
+  width: 650px;
+}
+
 #work__box3 {
   display: flex;
   flex-flow: row-reverse;
@@ -593,6 +599,17 @@ body:not(.user-is-tabbing) a:focus {
   align-items: center;
 }
 
+.about__photo {
+  border-radius: 0px;
+  width: 357px;
+  height: 476px;
+}
+
+.about__photo-container {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 900px) {
   .about__content {
     flex-direction: column-reverse;
@@ -604,10 +621,6 @@ body:not(.user-is-tabbing) a:focus {
   margin-bottom: var(--gutter-normal);
 }
 
-.about__photo {
-  border-radius: 20px;
-}
-
 @media (min-width: 901px) {
   .about__text {
     flex: 0 0 35%;
@@ -615,7 +628,7 @@ body:not(.user-is-tabbing) a:focus {
 
   .about__photo-container {
     flex: 1;
-    margin: 0 var(--gutter-huge) 0 0;
+    margin: 0 var(--gutter-medium) 0 0;
   }
 }
 
