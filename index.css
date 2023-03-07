@@ -463,9 +463,12 @@ body:not(.user-is-tabbing) a:focus {
   align-items: center;
 }
 
-#work__image2 {
+#work__image1 {
   max-width: 200%;
   width: 650px;
+}
+
+#work__image2 {
 }
 
 #work__box3 {
